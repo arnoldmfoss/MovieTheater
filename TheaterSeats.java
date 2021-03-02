@@ -65,11 +65,19 @@ public class TheaterSeats {
         return seatsLeft;
     }
 
+    public int getRows(){
+        return rows;
+    }
+
+    public int getSeatsInRow(){
+        return seatsInRow;
+    }
+
     public String printSeating(){
         String out = "";
         for(String reservations: seatsAssigned.keySet()){
             ArrayList<String> seats = seatsAssigned.get(reservations);
-            out += reservations + "\t" + seats.get(0);
+            out += reservations + " " + seats.get(0);
             for(int i = 1; i<seats.size(); i++){
                 out += "," + seats.get(i);
             }
