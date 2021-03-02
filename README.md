@@ -3,13 +3,13 @@
 * javac Main.java
 * testing:
 * - add Junit jar file into class path
-* - javac -cp junit-4.0.0jar;. TestTheaterSeats.java
+* - javac -cp junit-4.12.jar;. TestTheaterSeats.java
 # enter file path:
 * any .txt files
 # test:
 * use a direct path for test.txt or test2.txt
 * use junit tests: 
-*  - use java -cp junit-4.0.0.jar;. TestTheaterSeats
+*  - java -cp junit-4.12.jar;hamcrest-core-1.3.jar;. org.junit.runner.JUnitCore TestTheaterSeats
 *  - the junit test wanted, ie create...
 
 assumptions:
