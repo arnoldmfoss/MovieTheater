@@ -24,7 +24,6 @@ public class Main {
 
         Files.write(Paths.get("out.txt"), openTheater.printSeating().getBytes(), StandardOpenOption.CREATE);
         File newFile = new File ("out.text");
-        System.out.println(openTheater.printSeating());
         System.out.println(newFile.getCanonicalPath());
     }
 }
